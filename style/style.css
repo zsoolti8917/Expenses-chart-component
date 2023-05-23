@@ -1,0 +1,162 @@
+/* || IMPORTS || */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/* || RESET || */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/S
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* || VARIABLES || */
+:root{
+    /* Colors */
+    --clr-primary-300: hsl(10, 79%, 65%);
+    --clr-primary-400: hsl(186, 34%, 60%);
+
+    --clr-neutral-800: hsl(25, 47%, 15%);
+    --clr-neutral-500: hsl(28, 10%, 53%);
+    --clr-neutral-300: hsl(27, 66%, 92%);
+    --clr-neutral-200: hsl(33, 100%, 98%);
+
+    /* Fonts */
+    --ff-primary: 'DM Sans', sans-serif;
+
+    /* Font Sizes */
+    --fs-100: 0.75rem; /* 12px */
+    --fs-200: 0.9375rem ; /* 15px */
+    --fs-500: 1.125rem; /* 18px */
+    --fs-600: 1.5rem; /* 24px */
+    --fs-800: 1.875rem; /* 30px */
+
+    /* Font Weights */
+    --fw-400: 400;
+    --fw-700: 700;
+
+
+
+}
+
+/* || GLOBAL || */
+
+/* || LAYOUT || */
+
+/* || HEADER || */
+
+/* || MAIN || */
+
+/* || MEDIA QUERIES || */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  :root{
+     --fs-100: 0.9375rem; /* 12px -> 15px */
+    --fs-200: 1.125rem ; /* 15px -> 18px */
+    --fs-500: 1.125rem; /* 18px */
+    --fs-600: 2rem; /* 24px -> 32px */
+    --fs-800: 3rem; /* 30px - >48px */
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
